@@ -988,6 +988,10 @@ header {
   -ms-border-radius: 0;
   border-radius: 0; }
 
+  /* .owl-dot {
+    background-color: white;
+    color:white;
+  } */
 .testimony blockquote {
   border: none; }
   .testimony blockquote p {
