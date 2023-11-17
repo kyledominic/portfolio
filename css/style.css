@@ -735,7 +735,7 @@ header {
         -o-transition: 0.3s;
         transition: 0.3s; }
       .work-entry .work-img .display-t .work-name {
-        display: inline-block;
+        display: none;
         padding: 4em 3em;
         background: #fff;
         -webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
@@ -753,10 +753,13 @@ header {
           -o-transition: 0.3s;
           transition: 0.3s; }
     .work-entry .work-img:hover .display-t:after {
+      display: inline-block;
       opacity: 1; }
     .work-entry .work-img:hover .display-t .work-name {
+      display: inline-block;
       padding: 4.5em 3.5em; }
       .work-entry .work-img:hover .display-t .work-name h2 {
+        display: inline-block;
         font-size: 34px; }
     @media screen and (max-width: 768px) {
       .work-entry .work-img {
@@ -1119,7 +1122,7 @@ header {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     width: 20px;
     height: 2px;
     color: #000;
