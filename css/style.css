@@ -37,11 +37,16 @@
 .bg-darkgray{
   background-color: #6e5a58;
 }
-.bg-darkgray{
-  background-color: #6e5a58;
+
+.text-darkgray{
+  color: #6e5a58;
 }
 .bg-brownish{
   background-color: #9f8f88;
+}
+
+.text-brownish{
+  color: #9f8f88;
 }
 .bg-litegray{
   background-color: #c5b4ac;
