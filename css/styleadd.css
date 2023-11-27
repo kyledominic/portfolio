@@ -266,3 +266,7 @@
   height: 130px;
   width: 130px;
 } 
+
+p.colorlib-social-icons i {
+  color: #32313a!important;
+}
